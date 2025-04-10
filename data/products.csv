@@ -1,31 +1,31 @@
-product_id,title,category,brand,price,description,color,size,material
-P1001,Premium Wireless Headphones,Electronics,SoundCore,149.99,Noise-cancelling over-ear headphones with 30-hour battery life and premium sound quality,Black,Standard,Aluminum/Leather
-P1002,Ultra HD Smart TV 55",Electronics,VisionTech,699.99,55-inch 4K Ultra HD Smart TV with HDR and built-in streaming apps,Black,55 inch,Metal/Glass
-P1003,Professional Chef Knife,Kitchen,CulinaryPro,89.95,8-inch professional chef knife with ergonomic handle and German stainless steel blade,Silver,8 inch,Stainless Steel
-P1004,Women's Running Shoes,Footwear,AthleteFirst,129.95,Lightweight performance running shoes with responsive cushioning and breathable mesh upper,Blue/White,US 7,Synthetic/Mesh
-P1005,Men's Slim Fit Dress Shirt,Clothing,Urban Elegance,54.99,Wrinkle-resistant cotton blend dress shirt with modern slim fit design,White,Medium,Cotton Blend
-P1006,Ceramic Coffee Mug Set,Home,HomeEssentials,29.99,Set of 4 ceramic coffee mugs in assorted colors with 12oz capacity,Multi,12oz,Ceramic
-P1007,Portable Bluetooth Speaker,Electronics,SoundCore,79.99,Waterproof portable speaker with 20-hour playtime and deep bass,Red,Compact,Plastic/Rubber
-P1008,Yoga Mat Premium,Sports & Fitness,ZenFit,45.00,Extra thick non-slip yoga mat with carrying strap,Purple,72x24 inch,TPE Foam
-P1009,Stainless Steel Water Bottle,Home,EcoHydrate,24.95,Vacuum insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours,Teal,20oz,Stainless Steel
-P1010,Men's Casual Chino Pants,Clothing,Urban Elegance,59.99,Comfortable stretch chino pants with straight fit and hidden pocket,Khaki,34x32,Cotton/Elastane
-P1011,Leather Messenger Bag,Accessories,Heritage,119.99,Vintage-inspired leather messenger bag with multiple compartments and laptop sleeve,Brown,15 inch,Genuine Leather
-P1012,Smart Fitness Tracker,Electronics,TechFit,89.95,Waterproof fitness tracker with heart rate monitor and sleep tracking,Black,One Size,Plastic/Silicone
-P1013,Cast Iron Skillet,Kitchen,HomeChef,39.99,Pre-seasoned 10.25-inch cast iron skillet for versatile cooking,Black,10.25 inch,Cast Iron
-P1014,Women's Crossbody Handbag,Accessories,LuxStyle,65.00,Compact crossbody bag with adjustable strap and multiple compartments,Navy,Medium,Vegan Leather
-P1015,Digital Air Fryer,Kitchen,SmartCook,129.99,6-quart digital air fryer with 8 presets and non-stick basket,Black/Silver,6 quart,Stainless Steel/Plastic
-P1016,Men's Graphic T-Shirt,Clothing,UrbanVibe,24.99,Soft cotton t-shirt with modern graphic print,Charcoal,Large,100% Cotton
-P1017,Wireless Gaming Mouse,Electronics,GamePro,59.99,Ergonomic gaming mouse with RGB lighting and programmable buttons,Black,Standard,Plastic/Rubber
-P1018,Bamboo Cutting Board Set,Kitchen,EcoKitchen,34.99,Set of 3 bamboo cutting boards in different sizes,Natural,Varied,Bamboo
-P1019,Women's Denim Jacket,Clothing,DenimCo,79.99,Classic denim jacket with slight stretch and vintage wash,Medium Wash,Small,Cotton/Elastane
-P1020,Smart Light Bulb Pack,Home,SmartLife,49.99,Pack of 4 color-changing smart bulbs compatible with voice assistants,White,A19,Glass/Metal
-P1021,Memory Foam Pillow,Bedding,ComfortSleep,39.95,Contoured memory foam pillow with cooling gel technology,White,Standard,Memory Foam
-P1022,Men's Leather Wallet,Accessories,Heritage,45.00,Slim bifold wallet with RFID protection and multiple card slots,Black,Standard,Genuine Leather
-P1023,Wireless Charging Pad,Electronics,PowerUp,29.99,Fast wireless charging pad compatible with Qi-enabled devices,Black,4.5 inch,Aluminum/Silicone
-P1024,Women's Wool Blend Sweater,Clothing,WinterChic,69.99,Soft wool blend sweater with ribbed detail and relaxed fit,Cream,Large,Wool/Acrylic
-P1025,Stainless Steel Cookware Set,Kitchen,ProCook,149.99,10-piece stainless steel cookware set with glass lids and stay-cool handles,Silver,Varied,Stainless Steel
-P1026,Bluetooth Wireless Earbuds,Electronics,SoundCore,89.99,True wireless earbuds with noise isolation and 24-hour battery life with charging case,White,One Size,Plastic/Silicone
-P1027,Indoor Plant Collection,Home,GreenThumb,49.95,Set of 3 low-maintenance indoor plants in decorative pots,Green/Mixed,Small,Living Plant/Ceramic
-P1028,Men's Running Shorts,Sports & Fitness,AthleteFirst,34.99,Lightweight running shorts with built-in liner and reflective details,Black,Medium,Polyester/Spandex
-P1029,Scented Candle Set,Home,AromaLux,38.00,Set of 3 hand-poured soy candles in calming scents,Multi,8oz each,Soy Wax/Glass
-P1030,Women's Leather Ankle Boots,Footwear,UrbanStep,119.95,Classic leather ankle boots with low heel and side zipper,Brown,US 8,Genuine Leather
+product_id,title,category,brand,price,discount,description,color,size,material
+P1001,Premium Wireless Headphones,Electronics,SoundCore,41999.00,15,Noise-cancelling over-ear headphones with 30-hour battery life and premium sound quality,Black,Standard,Aluminum/Leather
+P1002,Ultra HD Smart TV 55",Electronics,VisionTech,195997.00,0,55-inch 4K Ultra HD Smart TV with HDR and built-in streaming apps,Black,55 inch,Metal/Glass
+P1003,Professional Chef Knife,Kitchen,CulinaryPro,25186.00,10,8-inch professional chef knife with ergonomic handle and German stainless steel blade,Silver,8 inch,Stainless Steel
+P1004,Women's Running Shoes,Footwear,AthleteFirst,36386.00,20,Lightweight performance running shoes with responsive cushioning and breathable mesh upper,Blue/White,US 7,Synthetic/Mesh
+P1005,Men's Slim Fit Dress Shirt,Clothing,Urban Elegance,15397.00,0,Wrinkle-resistant cotton blend dress shirt with modern slim fit design,White,Medium,Cotton Blend
+P1006,Ceramic Coffee Mug Set,Home,HomeEssentials,8397.00,0,Set of 4 ceramic coffee mugs in assorted colors with 12oz capacity,Multi,12oz,Ceramic
+P1007,Portable Bluetooth Speaker,Electronics,SoundCore,22397.00,25,Waterproof portable speaker with 20-hour playtime and deep bass,Red,Compact,Plastic/Rubber
+P1008,Yoga Mat Premium,Sports & Fitness,ZenFit,12600.00,0,Extra thick non-slip yoga mat with carrying strap,Purple,72x24 inch,TPE Foam
+P1009,Stainless Steel Water Bottle,Home,EcoHydrate,6986.00,5,Vacuum insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours,Teal,20oz,Stainless Steel
+P1010,Men's Casual Chino Pants,Clothing,Urban Elegance,16797.00,30,Comfortable stretch chino pants with straight fit and hidden pocket,Khaki,34x32,Cotton/Elastane
+P1011,Leather Messenger Bag,Accessories,Heritage,33597.00,0,Vintage-inspired leather messenger bag with multiple compartments and laptop sleeve,Brown,15 inch,Genuine Leather
+P1012,Smart Fitness Tracker,Electronics,TechFit,25186.00,10,Waterproof fitness tracker with heart rate monitor and sleep tracking,Black,One Size,Plastic/Silicone
+P1013,Cast Iron Skillet,Kitchen,HomeChef,11197.00,0,Pre-seasoned 10.25-inch cast iron skillet for versatile cooking,Black,10.25 inch,Cast Iron
+P1014,Women's Crossbody Handbag,Accessories,LuxStyle,18200.00,15,Compact crossbody bag with adjustable strap and multiple compartments,Navy,Medium,Vegan Leather
+P1015,Digital Air Fryer,Kitchen,SmartCook,36397.00,0,6-quart digital air fryer with 8 presets and non-stick basket,Black/Silver,6 quart,Stainless Steel/Plastic
+P1016,Men's Graphic T-Shirt,Clothing,UrbanVibe,6997.00,0,Soft cotton t-shirt with modern graphic print,Charcoal,Large,100% Cotton
+P1017,Wireless Gaming Mouse,Electronics,GamePro,16797.00,20,Ergonomic gaming mouse with RGB lighting and programmable buttons,Black,Standard,Plastic/Rubber
+P1018,Bamboo Cutting Board Set,Kitchen,EcoKitchen,9797.00,0,Set of 3 bamboo cutting boards in different sizes,Natural,Varied,Bamboo
+P1019,Women's Denim Jacket,Clothing,DenimCo,22397.00,25,Classic denim jacket with slight stretch and vintage wash,Medium Wash,Small,Cotton/Elastane
+P1020,Smart Light Bulb Pack,Home,SmartLife,13997.00,0,Pack of 4 color-changing smart bulbs compatible with voice assistants,White,A19,Glass/Metal
+P1021,Memory Foam Pillow,Bedding,ComfortSleep,11186.00,0,Contoured memory foam pillow with cooling gel technology,White,Standard,Memory Foam
+P1022,Men's Leather Wallet,Accessories,Heritage,12600.00,10,Slim bifold wallet with RFID protection and multiple card slots,Black,Standard,Genuine Leather
+P1023,Wireless Charging Pad,Electronics,PowerUp,8397.00,0,Fast wireless charging pad compatible with Qi-enabled devices,Black,4.5 inch,Aluminum/Silicone
+P1024,Women's Wool Blend Sweater,Clothing,WinterChic,19597.00,35,Soft wool blend sweater with ribbed detail and relaxed fit,Cream,Large,Wool/Acrylic
+P1025,Stainless Steel Cookware Set,Kitchen,ProCook,41997.00,15,10-piece stainless steel cookware set with glass lids and stay-cool handles,Silver,Varied,Stainless Steel
+P1026,Bluetooth Wireless Earbuds,Electronics,SoundCore,25197.00,0,True wireless earbuds with noise isolation and 24-hour battery life with charging case,White,One Size,Plastic/Silicone
+P1027,Indoor Plant Collection,Home,GreenThumb,13986.00,5,Set of 3 low-maintenance indoor plants in decorative pots,Green/Mixed,Small,Living Plant/Ceramic
+P1028,Men's Running Shorts,Sports & Fitness,AthleteFirst,9797.00,0,Lightweight running shorts with built-in liner and reflective details,Black,Medium,Polyester/Spandex
+P1029,Scented Candle Set,Home,AromaLux,10640.00,10,Set of 3 hand-poured soy candles in calming scents,Multi,8oz each,Soy Wax/Glass
+P1030,Women's Leather Ankle Boots,Footwear,UrbanStep,33586.00,20,Classic leather ankle boots with low heel and side zipper,Brown,US 8,Genuine Leather

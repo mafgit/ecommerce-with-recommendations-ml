@@ -1,33 +1,28 @@
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from flask import Flask, jsonify
+from flask_cors import CORS
 
-df_interactions = pd.read_csv('data/interactions.csv')
-df_products = pd.read_csv('data/products.csv')
+app = Flask(__name__)
+CORS(app)
 
-def preprocess_text(text):
-    text = text.lower()
-    return text
+@app.route("/")
+def hello():
+    return jsonify({"message": "Hello, World!"})
 
-df_products['recommendation_string'] = df_products['title'] + ' ' + df_products['description']
-df_products['recommendation_string'] = df_products['recommendation_string'].fillna('')
-df_products['recommendation_string'] = df_products['recommendation_string'].apply(preprocess_text)
+from recommend import get_recommendations, get_product, get_similar_products
+@app.route("/get_product/<id>")
+def get_product_by_id(id):
+    product = get_product(id)
+    
+    if product.empty:
+        return jsonify({"message": "Product not found"}), 404
+    
+    similar = get_similar_products(id)
+    
+    return jsonify({
+        "product": product.to_dict(orient='records')[0],
+        "similar": similar.to_dict(orient='records')
+    })
+    
 
-tfidf_vectorizer = TfidfVectorizer(stop_words='english')
-tfidf_matrix = tfidf_vectorizer.fit_transform(df_products['recommendation_string'])
-
-cosine_sim_matrix = cosine_similarity(tfidf_matrix, tfidf_matrix)
-# print(cosine_sim_matrix)
-
-id_to_index_map = pd.Series(df_products.index, index=df_products['product_id'])
-# print(id_to_index_map)
-
-def get_recommendations(target_product_id, n=5):
-    similarities = cosine_sim_matrix[id_to_index_map[target_product_id]]
-    # print(similarities)
-    id_sim = list(zip(df_products['product_id'], similarities))
-    sorted_id_sim = sorted(id_sim, key=lambda x: x[1], reverse=True)[1:n+1]
-    print(sorted_id_sim)
-    return [x[0] for x in sorted_id_sim]
-
-print(get_recommendations('P1022'))
+if __name__ == '__main__':
+    app.run(debug=True)
