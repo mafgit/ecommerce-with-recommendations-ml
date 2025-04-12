@@ -23,7 +23,7 @@ const page = ({ params }) => {
   }, []);
 
   return (
-    <div className="p-12 flex flex-col gap-16 pt-[100px]">
+    <div className="p-12 flex flex-col gap-16 pt-[85px]">
       <div className="flex gap-8">
         <div className="">
           <ReactImageGallery
@@ -59,23 +59,29 @@ const page = ({ params }) => {
         </div>
         <div className="flex flex-col gap-4 text-lg">
           <h1 className="text-4xl font-bold">{product.title}</h1>
-          <Link href={`/brand/${product.brand}`} className="subtitle underline">
-            {product.brand}
-          </Link>
+          <p className="subtitle bg-[#26283b] w-max rounded-full px-3 py-1 ">
+            🛍️ Brand:
+            <Link
+              href={`/brand/${product.brand}`}
+              className="ml-[6px] subtitle underline"
+            >
+              {product.brand}
+            </Link>
+          </p>
           <Link
             href={`/category/${product.category}`}
-            className="subtitle underline bg-[#26283b] w-max rounded-full px-2 py-1 "
+            className="subtitle underline bg-[#00a63da4] w-max rounded-full px-3 py-1 "
           >
             {product.category}
           </Link>
           <p className="italic">{product.description}</p>
-          <p className="subtitle bg-[#26283b] w-max rounded-full px-2 py-1 ">
+          <p className="subtitle bg-[#26283b] w-max rounded-full px-3 py-1 ">
             🎨 Color: {product.color}
           </p>
-          <p className="subtitle bg-[#26283b] w-max rounded-full px-2 py-1 ">
+          <p className="subtitle bg-[#26283b] w-max rounded-full px-3 py-1 ">
             📐 Size: {product.size}
           </p>
-          <p className="subtitle bg-[#26283b] w-max rounded-full px-2 py-1 ">
+          <p className="subtitle bg-[#26283b] w-max rounded-full px-3 py-1 ">
             🧱 Material: {product.material}
           </p>
 

@@ -26,9 +26,8 @@ export default function RootLayout({ children }) {
           <nav>
             <ul className="flex gap-4">
               <Link href="/">Home</Link>
-              <Link href="/product">Product</Link>
-              <Link href="/brand">Brand</Link>
-              <Link href="/category">Category</Link>
+              <Link href="/brands">Brands</Link>
+              <Link href="/categories">Categories</Link>
             </ul>
           </nav>
         </div>
