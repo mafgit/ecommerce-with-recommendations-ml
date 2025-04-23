@@ -33,3 +33,21 @@ button {
   cursor: pointer;
   @apply hover:scale-105 hover:opacity-80 transition-all duration-200;
 }
+
+.image-gallery-thumbnail-inner,
+.image-gallery-thumbnail {
+  height: 50px !important;
+}
+
+.image-gallery-bullet {
+  border-radius: 30px !important;
+  padding: 3px !important;
+}
+
+.image-gallery-bullet.active {
+  width: 30px !important;
+}
+
+.image-gallery-svg {
+  width: 25px !important;
+}
