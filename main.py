@@ -34,6 +34,11 @@ def get_categories():
     categories = df_products['category'].unique()
     return jsonify({'categories': categories.tolist()})
 
+@app.route("/get_brands")
+def get_brands():
+    brands = df_products['brand'].unique()
+    return jsonify({'brands': brands.tolist()})
+
 
 if __name__ == '__main__':
     app.run(debug=True)

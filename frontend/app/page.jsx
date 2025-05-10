@@ -64,7 +64,7 @@ export default function Home() {
           {categories.map((category) => (
             <Link href={`/categories/${category}`}
               className={
-                "p-2 px-4 rounded-full hover:bg-[#fff677] hover:text-black cursor-pointer transition-all duration-150 " +
+                "p-2 px-4 rounded-full hover:bg-[#fff677] border-2 border-gray-500 hover:text-black cursor-pointer transition-all duration-150 " +
                 `hover:bg-[${
                   ["#fff677", "#ff8b77", "#97ff77", "#77c9ff", "#d877ff"][
                     Math.floor(Math.random() * 5)
@@ -84,7 +84,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-6 justify-center items-center rounded-md">
         <h1 className="text-2xl font-bold">Recommendations</h1>
-        <div className="flex flex-wrap gap-4 justify-between items-center">
+        <div className="flex flex-wrap gap-4 gap-y-10 justify-between items-center">
           {recs.map((product) => (
             <ProductCard
               key={product.product_id}

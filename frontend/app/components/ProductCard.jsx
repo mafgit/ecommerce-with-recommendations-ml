@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const ProductCard = ({ product, bg2=false }) => {
   return (
-    <div key={product.product_id} className="rounded-md rounded-b-md w-[200px]">
+    <div key={product.product_id} className="rounded-md rounded-b-md w-[220px]">
       <Link href={"/product/" + product.product_id + "/"} className="relative">
         <Image
           className="rounded-t-md hover:opacity-75 transition-all duration-150"
-          src={`https://picsum.photos/200/250?r=${Math.random()}`}
-          width={200}
+          src={`https://picsum.photos/220/250?r=${Math.random()}`}
+          width={220}
           height={200}
           alt="Product Image"
         />
